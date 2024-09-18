@@ -7,5 +7,8 @@ public class MotorBikeRunner {
 		ducati.mileage();
 		ducati.start();
 		ducati.price();
+		honda.wheelie();
+		honda.stop();
+		
 	}
 }

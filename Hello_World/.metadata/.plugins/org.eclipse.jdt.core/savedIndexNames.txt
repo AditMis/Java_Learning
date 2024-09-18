@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Git_Workspace\Git_Code\Java_Learning\Hello_World\.metadata\.plugins\org.eclipse.jdt.core
-317517919.index
-1865797976.index
-3726495391.index
