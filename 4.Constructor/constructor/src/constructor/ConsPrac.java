@@ -1,9 +1,10 @@
-package oops;
+package constructor;
 
-public class MotorBikeRunner {
+public class ConsPrac {
 	public static void main(String[] args) {
-		MotorBike ducati= new MotorBike();
-		MotorBike honda= new MotorBike();
+		ConstructorPractice ducati= new ConstructorPractice(100);
+		ConstructorPractice honda= new ConstructorPractice(200);
+		ConstructorPractice newPrice=new ConstructorPractice();
 		ducati.start();
 		ducati.price();
 		honda.wheelie();
@@ -14,6 +15,6 @@ public class MotorBikeRunner {
 		// Here we are using the getter to get the value of a class member i.e a private member of a class using function/ methods.
 		System.out.println("The speed of the ducati bike is "+ ducati.getSpeed());
 		System.out.println("The mileage of the honda bike is "+ honda.getMileage());
-		
+		//System.out.println("The constructor is "+ newPrice.price);
 	}
 }
