@@ -1,3 +1,7 @@
 Java is platform independent and the application will run on any platform. 
 JVM(Java Virtual Machine) is platform dependent and is different for different OS.
 The JVM uses byte code to run it on a platform and hence makes Java platform independent. 
+JVM starts to read the first file among thousands of files. We need to tell the JVM which file is our first file.
+The first file contains the main function or a specific signature( which include method names, values etc).
+            ** public static void main(String args[])
+The above line is the signature for a file to be the first file from which the compiler will start executing the program.
